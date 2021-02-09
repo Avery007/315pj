@@ -14,6 +14,7 @@ public class pickup : MonoBehaviour
             Debug.Log("collision pickup");
             Destroy(collision.collider.gameObject);
         }
+    }
         void Start()
     {
         
